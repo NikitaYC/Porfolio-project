@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#root{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#001F3F;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#navbar > nav >a{
+    width: 20%;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 30px;
+    padding-right: 20px;
+    color: #f0f0f0;
+    position: relative;
+    top: 15px;
+}
+#navbar >nav >a:hover{
+    cursor: pointer;
+    color: #4b7fb4;
+    transition: font-size 0.3s;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+#home{
+    background-image: url("https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?cs=srgb&dl=pexels-lukas-574069.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 700px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    
+}
+#Resumebtn{
+    background-color: #001F3F;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#Resumebtn:hover{
+    background-color: #4b7fb4;
+}
+
+/* about */
+#about1{
+    width: 90%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+#about1>div>img{
+    width: 400px;
+    border-radius: 50%;
+}
+#about1>div{
+    width: 40%;
+    /* font-size: 20px; */
+}
+#about1>div>p{
+    font-size: 23px;
+    line-height: 2;
+}
+#about1>div>h3{
+   font-size: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+/* skills */
+#techstack1 , #tools{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+#techstack1>div>h3 , #tools>div>h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* projects */
+
+#project1{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#project1>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+}
+#project1>div>img{
+    width: 350px;
+    height: 200px;
+}
+#project1>div>div>button{
+    background-color: #001F3F;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+#project1>div>div>button:hover{
+    background-color: #4b7fb4;
+}
+
+/* contact */
+.logo2{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+.logo2>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo2>p{
+    font-size:18px ;
+}
+
+#home,
+#about,
+#techstack,
+#project,
+#contact {
+    padding-top: 70px;
+     
+}
+
+
+
+
+
+
